@@ -15,5 +15,3 @@ end = timer()
 
 print (pi)
 print "Time:", end - start
- 
-
