@@ -38,4 +38,3 @@ if(rank == 0):
     print ("Using", size, "CPU(s)")
     print ("Time:", end - start)
     print ("--------------------------")
-
