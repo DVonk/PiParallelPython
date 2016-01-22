@@ -16,7 +16,6 @@ def estimate_pi(n):
 #========== Parallel computing via multiprocessing map ==========
 def calculate_pi(cpus, n):
     #Divide workload (n) on number of CPUs
-    
     part_count = [i for i in range(1, int(round(n/chunk_size) + 1))]
     #Define pool with one process per CPU
     pool = Pool(processes = cpus)
