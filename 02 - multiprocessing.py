@@ -20,6 +20,7 @@ def calculate_pi(cpus, n):
     part_count = [i for i in range(1, int(round(n/chunk_size) + 1))]
     #Define pool with one process per CPU
     pool = Pool(processes = cpus)
+
     #Use map to calculate part of the solution and time it
     start = timer()
     count = pool.map(estimate_pi, part_count)   
