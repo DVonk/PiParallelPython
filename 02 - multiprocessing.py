@@ -2,7 +2,7 @@ import multiprocessing
 from multiprocessing import Pool
 from timeit import default_timer as timer
 
-chunk_size = 1000000
+chunk_size = 100000
 N = 100000000
 
 #========== Estimate Pi (according to lecture slides) ==========
